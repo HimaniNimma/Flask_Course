@@ -1,55 +1,165 @@
 # Flask Course 🚀
 
-A step-by-step Flask learning project where I build applications from scratch while learning the Flask framework.
+A step-by-step Flask learning repository where I build web applications while exploring Flask, Jinja templates, HTML, CSS, and backend development using Python.
 
-## 📌 About
+This repository documents my progress from basic Flask concepts to building complete web applications.
 
-This repository documents my Flask learning journey with practical implementations, regular commits, and hands-on projects.
+---
 
-## 🛠️ Tech Stack
+## 📚 Topics Covered
 
-- Python
+- Flask Installation & Setup
+- Flask Project Structure
+- Routing
+- HTML Templates
+- Static Files (CSS)
+- Jinja2 Template Engine
+- Variables
+- Conditional Statements (`if`, `else`)
+- Loops (`for`)
+- Template Inheritance (`base.html`)
+- Navigation Between Pages
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
 - Flask
+- HTML5
+- CSS3
+- Jinja2
 - Git
 - GitHub
-- VS Code
+
+---
 
 ## 📂 Project Structure
 
 ```
 Flask_Course/
-│── app.py
-│── .gitignore
-│── README.md
+│
+├── static/
+│   └── css/
+│       └── style.css
+│
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── about.html
+│   └── contact.html
+│
+├── venv/
+├── app.py
+├── .gitignore
+└── README.md
 ```
 
-## 🎯 Learning Goals
+---
 
-- Learn Flask fundamentals
-- Understand routing
-- Work with HTML templates
-- Handle forms and user input
-- Connect Flask with databases
-- Build complete web applications
-- Deploy Flask projects
+## 🚀 Features Implemented
 
-## 📈 Progress
-
-- ✅ Project setup
-- ✅ Virtual environment
-- ✅ Flask installation
-- ✅ Git & GitHub integration
-- ⏳ Flask routing
-- ⏳ Templates (Jinja2)
-- ⏳ Forms
-- ⏳ Database
-- ⏳ Authentication
-- ⏳ Deployment
-
-## 🤝 Connect With Me
-
-- GitHub: https://github.com/HimaniNimma
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- Dynamic web pages using Flask
+- HTML template rendering
+- CSS integration using Static folder
+- Passing variables from Flask to HTML
+- Conditional rendering using Jinja
+- Looping through Python lists
+- Template inheritance
+- Multi-page navigation
 
 ---
-⭐ This repository is continuously updated as I learn Flask.
+
+## 📖 Learning Progress
+
+- ✅ Flask Basics
+- ✅ Routing
+- ✅ Templates
+- ✅ Static Files
+- ✅ Jinja Variables
+- ✅ Conditions
+- ✅ Loops
+- ✅ Template Inheritance
+- ✅ Navigation Bar
+
+### 🔜 Coming Next
+
+- Forms
+- User Input
+- SQLite Database
+- CRUD Operations
+- Flash Messages
+- Authentication
+- Deployment
+
+---
+
+## 💻 How to Run
+
+### Clone the repository
+
+```bash
+git clone https://github.com/HimaniNimma/Flask_Course.git
+```
+
+### Move into the project folder
+
+```bash
+cd Flask_Course
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### macOS/Linux
+
+```bash
+source venv/bin/activate
+```
+
+### Install Flask
+
+```bash
+pip install flask
+```
+
+### Run the application
+
+```bash
+python app.py
+```
+
+Open your browser:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🎯 Purpose
+
+This repository is part of my journey to learn Flask and backend web development. It serves as a record of my progress while building practical web applications and strengthening my Python development skills.
+
+---
+
+## 👩‍💻 Author
+
+**Himani Nimma**
+
+GitHub: https://github.com/HimaniNimma
+
+---
+
+⭐ If you found this repository useful, feel free to star it!
