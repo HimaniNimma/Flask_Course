@@ -1,14 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Flask Website</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
+{% extends "base.html" %}
 
-    <h1>Welcome to My Flask Website</h1>
+{% block title %}
+Home
+{% endblock %}
 
-    <p>This is the home page created by HTML.</p>
+{% block content %}
 
-</body>
-</html>
+<h1>Welcome {{ name }}</h1>
+
+<h2>You are learning {{ course }}</h2>
+
+<p>Your age is {{ age }}</p>
+
+{% if is_student %}
+    <p>You are a student.</p>
+{% else %}
+    <p>You are not a student.</p>
+{% endif %}
+
+<h3>My Skills</h3>
+
+<ul>
+    {% for skill in skills %}
+        <li>{{ skill }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
